@@ -138,7 +138,7 @@ def main():
         time.sleep(0.05)
 
         if not handA:
-            print("Spelar 1 vann etter", counter, "forsøk og", krigCount, "krigar.")
+            print("Spelar 2 vann etter", counter, "forsøk og", krigCount, "krigar.")
             print("Det tilsvarer", minutt_sekund(round(counter*4)), "mm:ss")
             plt.plot([x for x in range(len(plotListB))], plotListB, 'ro')
             plt.show()
