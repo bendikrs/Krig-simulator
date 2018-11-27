@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 try:
     import pygame.mixer
     pygame.mixer.init()
-    pygame.mixer.music.load("runnning_in_the_90s.mp3")
+    pygame.mixer.music.load("running_in_the_90s.mp3")
     pygame.mixer.music.play(-1, 7.9)
     time.sleep(5.1)
 except:
